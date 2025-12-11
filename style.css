@@ -149,11 +149,6 @@ nav a:hover{
     transform: translateY(-5px);
 }
 
-/* CONTACT */
-.contact{
-    padding: 60px;
-    text-align: center;
-}
 
 .contact-info p{
     margin: 10px 0;
