@@ -1,207 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kuragayala Akshaya — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika • Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm <strong>Kuragayala Akshaya</strong></h1>
-      <p>AI/ML Engineer • Tech Enthusiast • Creative Freelancer</p>
-      <a href="#projects" class="cta">See My Work →</a>
-    </div>
-  </section>
+    <!-- NAVBAR -->
+    <header>
+        <h2 class="logo">Niharika Kancharana</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <p>Python  SQL  C++  Flask  React  HTML & CSS  Pandas  NumPy  Scikit-Learn  OpenCV  Matplotlib  Seaborn  Azure  GitHub  Logo Design  Video Editing  Translation  PPT Templates</p>
-  </section>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Niharika Kancharana</span></h1>
+            <p>Software Engineering Student • Frontend Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#" class="btn" style="margin-left: 10px;">Download Resume</a>
+        </div>
+    </section>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I am a passionate and dedicated B.Tech Software Engineering student with strong interest 
+            in Full-Stack Development, UI/UX Design, and building scalable web applications. 
+            I enjoy learning new technologies and constantly improving my skills to create 
+            meaningful digital experiences.
+        </p>
+    </section>
 
-    <div class="project">
-      <h3>Handwritten Digit Recognition</h3>
-      <p>Uses CNN on MNIST to classify handwritten digits from 0 to 9.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
+    <!-- EDUCATION -->
+    <section id="education" class="about">
+        <h2 class="section-title">Education</h2>
+        <p><b>B.Tech – AI&ML Department</b><br>
+            Malla Reddy University, India<br>
+            2023 – 2027
+        </p>
+        <p>
+            CGPA (expected): <b>8.5</b>
+        </p>
+    </section>
 
-    <div class="project">
-      <h3>Email Spam Classifier</h3>
-      <p>Classifies emails as spam or not using NLP and TF-IDF techniques.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-box">
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React.js</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
 
-    <div class="project">
-      <h3>House Price Prediction</h3>
-      <p>Predicts house prices using regression models like Linear Regression and XGBoost.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
+    <!-- PROJECT SECTION -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
 
-    <div class="project">
-      <h3>Stock Price Prediction</h3>
-      <p>Forecasts stock prices using LSTM or Random Forest models.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Task Manager App</h3>
+                <p>A React-based task manager using JSON Server & Axios.</p>
+            </div>
 
-    <div class="project">
-      <h3>Online Shoppers Intention</h3>
-      <p>Analyzed e-commerce user behavior and purchasing intentions.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
+            <div class="project-card">
+                <h3>AgriConnect App</h3>
+                <p>Connects farmers and buyers with multilingual support.</p>
+            </div>
 
-    <div class="project">
-      <h3>Eye Ease Detection</h3>
-      <p>Computer vision system for detecting eye fatigue and strain.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-  </section>
+            <div class="project-card">
+                <h3>MediTrack App</h3>
+                <p>Medicine tracking with 1000+ categorized medicines & images.</p>
+            </div>
 
-  <section id="certifications" class="section">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Microsoft Azure AI – Document Intelligence and Knowledge Mining</li>
-      <li>Microsoft Azure AI – Natural Language Processing</li>
-      <li>Microsoft Azure AI – AI Overview</li>
-      <li>Microsoft Azure AI – Computer Vision</li>
-      <li>Cambridge English Empower B2 Certificate</li>
-      <li>Innovation and Entrepreneurship Summit – Mallareddy University</li>
-      <li>codec internship</li>
-      <li>nexpara 2k25</li>
-      <li>nav nirman</li>
-    </ul>
-  </section>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A modern and responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:akshayakuragayala@gmail.com">akshayakuragayala@gmail.com</a></p>
-    <p>College Email: <a href="mailto:2311cs020363@mallareddyuniversity.ac.in">2311cs020363@mallareddyuniversity.ac.in</a></p>
-    <p>
-      <!-- Add your social/profile links here if any -->
-      <!-- Example: <a href="#">GitHub</a> <a href="#">LinkedIn</a> -->
-    </p>
-  </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
 
-  <footer>
-    <p>© 2025 Kuragayala Akshaya. All rights reserved.</p>
-  </footer>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kuragayala Akshaya — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+        <div class="contact-info">
+            <p>Email: <b>nihaa@example.com</b></p>
+            <p>Phone: <b>+91 90000 00000</b></p>
+            <p>Location: India</p>
+            <br>
+            <p><b>Follow Me:</b></p>
+            <p>
+                <a href="#" style="color:#00eaff; text-decoration:none;">LinkedIn</a> |
+                <a href="#" style="color:#00eaff; text-decoration:none;">GitHub</a> |
+                <a href="#" style="color:#00eaff; text-decoration:none;">Instagram</a>
+            </p>
+        </div>
+    </section>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm <strong>Kuragayala Akshaya</strong></h1>
-      <p>AI/ML Engineer • Tech Enthusiast • Creative Freelancer</p>
-      <a href="#projects" class="cta">See My Work →</a>
-    </div>
-  </section>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Niharika Kancharana — All Rights Reserved.</p>
+    </footer>
 
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <p>Python  SQL  C++  Flask  React  HTML & CSS  Pandas  NumPy  Scikit-Learn  OpenCV  Matplotlib  Seaborn  Azure  GitHub  Logo Design  Video Editing  Translation  PPT Templates</p>
-  </section>
+    <!-- JS FILE LINK -->
+    <script src="script.js"></script>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-
-    <div class="project">
-      <h3>Handwritten Digit Recognition</h3>
-      <p>Uses CNN on MNIST to classify handwritten digits from 0 to 9.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Email Spam Classifier</h3>
-      <p>Classifies emails as spam or not using NLP and TF-IDF techniques.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>House Price Prediction</h3>
-      <p>Predicts house prices using regression models like Linear Regression and XGBoost.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Stock Price Prediction</h3>
-      <p>Forecasts stock prices using LSTM or Random Forest models.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Online Shoppers Intention</h3>
-      <p>Analyzed e-commerce user behavior and purchasing intentions.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-
-    <div class="project">
-      <h3>Eye Ease Detection</h3>
-      <p>Computer vision system for detecting eye fatigue and strain.</p>
-      <p><a href="#">GitHub →</a></p>
-    </div>
-  </section>
-
-  <section id="certifications" class="section">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Microsoft Azure AI – Document Intelligence and Knowledge Mining</li>
-      <li>Microsoft Azure AI – Natural Language Processing</li>
-      <li>Microsoft Azure AI – AI Overview</li>
-      <li>Microsoft Azure AI – Computer Vision</li>
-      <li>Cambridge English Empower B2 Certificate</li>
-      <li>Innovation and Entrepreneurship Summit – Mallareddy University</li>
-      <li>codec internship</li>
-      <li>nexpara 2k25</li>
-      <li>nav nirman</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:akshayakuragayala@gmail.com">akshayakuragayala@gmail.com</a></p>
-    <p>College Email: <a href="mailto:2311cs020363@mallareddyuniversity.ac.in">2311cs020363@mallareddyuniversity.ac.in</a></p>
-    <p>
-      <!-- Add your social/profile links here if any -->
-      <!-- Example: <a href="#">GitHub</a> <a href="#">LinkedIn</a> -->
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2025 Kuragayala Akshaya. All rights reserved.</p>
-  </footer>
 </body>
 </html>
